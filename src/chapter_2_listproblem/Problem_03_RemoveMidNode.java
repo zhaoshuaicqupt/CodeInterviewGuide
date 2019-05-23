@@ -19,6 +19,7 @@ public class Problem_03_RemoveMidNode {
             this.val = val;
         }
     }
+    //链表的长度每增加2 ，要删除的节点就后移一个节点。
     public Node removeMidNode(Node head){
         if(head==null|| head.next==null){
             return head;
